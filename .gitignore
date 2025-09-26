@@ -1,6 +1,35 @@
+# Dependencies
 node_modules/
-.env
 server/node_modules/
 client/node_modules/
+
+# Build outputs
+.dist/
+dist/
+build/
+.vite/
+.cache/
 coverage/
+
+# Package manager lockfiles we don't track
+pnpm-lock.yaml
+yarn.lock
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Media directories
+media/images/
+media/videos/
+
+# IDE/editor artifacts
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+
+# Misc
+server/coverage/
+client/coverage/
